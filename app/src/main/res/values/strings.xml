@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">permission</string>
+    <string name="permission">点击获取权限</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+    <string name="permission_audio">点击查看是否已经获取录音权限</string>
+    <string name="permission_first">初始自带方式仅提示一次,重装app再次提示</string>
+    <string name="permission_second">写manager,支持批量申请权限，Toast提示</string>
+    <string name="permission_third">3方框架，EasyPermission，需要依赖</string>
+</resources>
