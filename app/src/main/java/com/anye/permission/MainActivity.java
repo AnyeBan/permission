@@ -5,10 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private Button permission_first, permission_second, permission_third;
+    private Button permission_first, permission_second, permission_third, permission_fourth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +26,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         permission_second.setOnClickListener(this);
         permission_third = (Button) findViewById(R.id.permission_third);
         permission_third.setOnClickListener(this);
+        permission_fourth = (Button) findViewById(R.id.permission_fourth);
+        permission_fourth.setOnClickListener(this);
     }
 
     /**
@@ -35,17 +36,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         int id = v.getId();
-        if (R.id.permission_first == id) {
-            Intent intent = new Intent(MainActivity.this, PermissinOneActivity.class);
-            startActivity(intent);
-
-        } else if (R.id.permission_second == id) {
-            Intent intent = new Intent(MainActivity.this, PermissinTwoActivity.class);
-            startActivity(intent);
-
-        } else if (R.id.permission_third == id) {
-            Intent intent = new Intent(MainActivity.this, PermissinThreeActivity.class);
-            startActivity(intent);
-        }
+//        if (R.id.permission_first == id) {
+//            Intent intent = new Intent(MainActivity.this, PermissionOneActivity.class);
+//            startActivity(intent);
+//
+//        } else if (R.id.permission_second == id) {
+//            Intent intent = new Intent(MainActivity.this, PermissionTwoActivity.class);
+//            startActivity(intent);
+//
+//        } else if (R.id.permission_third == id) {
+//            Intent intent = new Intent(MainActivity.this, PermissionThreeActivity.class);
+//            startActivity(intent);
+//        } else if (R.id.permission_fourth == id) {
+//            Intent intent = new Intent(MainActivity.this, PermissionFourActivity.class);
+//            startActivity(intent);
+//        }
     }
 }
