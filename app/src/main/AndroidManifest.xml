@@ -33,6 +33,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".PermissionOneActivity"/>
+        <activity android:name=".PermissionTwoActivity"/>
+        <activity android:name=".PermissionThreeActivity"/>
+        <activity android:name=".PermissionFourActivity"/>
     </application>
 
 </manifest>

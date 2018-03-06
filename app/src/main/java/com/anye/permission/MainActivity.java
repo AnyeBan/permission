@@ -36,20 +36,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         int id = v.getId();
-//        if (R.id.permission_first == id) {
-//            Intent intent = new Intent(MainActivity.this, PermissionOneActivity.class);
-//            startActivity(intent);
-//
-//        } else if (R.id.permission_second == id) {
-//            Intent intent = new Intent(MainActivity.this, PermissionTwoActivity.class);
-//            startActivity(intent);
-//
-//        } else if (R.id.permission_third == id) {
-//            Intent intent = new Intent(MainActivity.this, PermissionThreeActivity.class);
-//            startActivity(intent);
-//        } else if (R.id.permission_fourth == id) {
-//            Intent intent = new Intent(MainActivity.this, PermissionFourActivity.class);
-//            startActivity(intent);
-//        }
+        if (R.id.permission_first == id) {
+            Intent intent = new Intent(MainActivity.this, PermissionOneActivity.class);
+            startActivity(intent);
+
+        } else if (R.id.permission_second == id) {
+            Intent intent = new Intent(MainActivity.this, PermissionTwoActivity.class);
+            startActivity(intent);
+
+        } else if (R.id.permission_third == id) {
+            Intent intent = new Intent(MainActivity.this, PermissionThreeActivity.class);
+            startActivity(intent);
+        } else if (R.id.permission_fourth == id) {
+            Intent intent = new Intent(MainActivity.this, PermissionFourActivity.class);
+            startActivity(intent);
+        }
     }
 }

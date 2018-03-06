@@ -31,4 +31,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/permission_third" />
+
+    <Button
+        android:id="@+id/permission_fourth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/permission_third" />
 </LinearLayout>
