@@ -7,4 +7,5 @@
     <string name="permission_first">初始自带方式仅提示一次,重装app再次提示</string>
     <string name="permission_second">写manager,支持批量申请权限，Toast提示</string>
     <string name="permission_third">3方框架，EasyPermission，需要依赖</string>
+    <string name="permission_fourth">3方框架，RxPermissions，需要依赖</string>
 </resources>
